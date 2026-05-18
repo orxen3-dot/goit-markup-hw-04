@@ -1,0 +1,85 @@
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #2E2F42;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.33;
+    margin-right: 76px;
+}
+.logo .web {
+    color: #4D5AE5;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    margin: 0 340px 0 0;  
+}
+
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+    
+
+.nav .nav-link {
+    color: #2E2F42;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    padding: 24px 0; 
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+    color: #404BBF;
+}
+
+.nav .nav-link::after {
+    content: "";
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav .nav-link:active::after {
+    content:"";
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    background-color: #404BBF;
+    margin-top: 20px;
+    position: absolute;
+
+}
+
+.adress {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+}
+
+.adress a {
+    color: currentColor;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    
+}
+
+.adress a:hover,
+.adress a:focus {
+    color: #404BBF
+}
