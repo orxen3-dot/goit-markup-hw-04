@@ -61,6 +61,11 @@
 
 .nav .nav-link.active::after {
     opacity: 1;
+
+}
+
+.nav .nav-link.active {
+    color: #404BBF;
 }
 
 .address {
